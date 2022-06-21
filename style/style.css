@@ -72,3 +72,24 @@ body{
     border: 2px solid #3882f6;
     border-radius: 8px;
 }
+
+
+/* ------------- */
+
+.section.two{
+    background-color: #e5e7eb;
+}
+
+.section.two .quote{
+    font-size: 36px;
+    color:#1f2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.section.two .author{
+    font-weight: bold;
+    color:#1f2937;
+}
+
+/* ------------- */

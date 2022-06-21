@@ -44,7 +44,8 @@ body{
     color: #e5e7eb;
 }
 
-.header button{
+.header button,
+.section.three button{
     background-color: #3882f6;
     border: 0;
     border-radius: 5px;
@@ -93,3 +94,24 @@ body{
 }
 
 /* ------------- */
+
+.section.three .container{
+    background-color: #3882f6;
+    border-radius: 5px ;
+}
+
+.section.three button{
+    border: 2px solid #f9faf8;
+}
+
+.section.three .title{
+   font-weight: bolder;
+}
+
+.section.three .subtext,
+.section.three .title,
+.footer{
+    color: #f9faf8;
+    font-size: 18px; 
+}
+

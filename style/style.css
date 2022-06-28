@@ -20,15 +20,13 @@
 
 /*----- HEADER -----*/
 
-.navbar,
-.nav-links,
-.header-content,
-.left-side
+.navbar
 {
     display: flex;
 }
 
 .nav-links{
+    display: flex;
     list-style-type: none;
 }
 
@@ -67,17 +65,16 @@
 }
 
 .header-content{
+    display: flex;
     flex-flow: row wrap;
+    justify-content: center;
     padding: 100px 0;
     gap: 20px;
-    justify-content: center;
 }
 .header .subtext{
     margin:18px 0;
 }
 .left-side{
-    flex-direction: column;
-    align-items: flex-start;
     max-width:500px;
 }
 
@@ -86,6 +83,7 @@ img{
     height: 250px;
     flex: 1;
 }
+
 /*----- MAIN CONTENT SECTION ONE -----*/
 
 .section.one .title{
@@ -111,9 +109,9 @@ img{
 
 .section.one .card-container{
     display: flex;
-    margin-bottom:48px;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom:48px;
     gap:18px;
 }
 
@@ -129,14 +127,13 @@ img{
     max-width: 150px;
 }
 
-
 /*----- MAIN CONTENT SECTION TWO -----*/
 
 .section.two{
-    background-color: #e5e7eb;
-    padding:100px 100px 82px 100px; 
     display: flex;
     justify-content: center;
+    background-color: #e5e7eb;
+    padding:100px 100px 82px 100px; 
 }
 .section.two .content{
     display: flex;
@@ -146,17 +143,17 @@ img{
 }
 
 .section.two .quote{
+    align-self: center;
     font-size: 36px;
-    color:#1f2937;
     font-style: italic;
     font-weight: lighter;
-    align-self: center;
+    color:#1f2937;
 }
 
 .section.two .author{
+    align-self: flex-end;
     font-weight: bold;
     color:#1f2937;
-    align-self: flex-end;
 }
 
 /*----- MAIN CONTENT SECTION THREE -----*/
@@ -167,17 +164,17 @@ img{
 }
 
 .section.three .container{
+    display: flex;
     background-color: #3882f6;
     border-radius: 8px ;
     margin:  100px 0;
-    width: 900px;
-    display: flex;
     padding: 50px 100px;
+    width: 900px;
 }
 
 .section.three button{
-    border: 2px solid #f9faf8;
     align-self: center;
+    border: 2px solid #f9faf8;
     flex: 0 0 auto ;
 }
 

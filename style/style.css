@@ -67,6 +67,7 @@ body{
     color: #f9faf8;
     font-weight: bold;
     margin:0;
+    font-size: 18px;
 }
 
 .header-content{
@@ -135,6 +136,15 @@ body{
 
 .section.two{
     background-color: #e5e7eb;
+    padding:100px 100px 82px 100px; 
+    display: flex;
+    justify-content: center;
+}
+.section.two .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    max-width: 900px;
 }
 
 .section.two .quote{
@@ -142,32 +152,55 @@ body{
     color:#1f2937;
     font-style: italic;
     font-weight: lighter;
+    align-self: center;
 }
 
 .section.two .author{
     font-weight: bold;
     color:#1f2937;
+    align-self: flex-end;
 }
 
 /* ------------- */
 
+.section.three{
+    display: flex;
+    justify-content: center;
+
+}
+
 .section.three .container{
     background-color: #3882f6;
-    border-radius: 5px ;
+    border-radius: 8px ;
+    margin:  100px 0;
+    width: 900px;
+    display: flex;
+    padding: 50px 100px;
 }
 
 .section.three button{
     border: 2px solid #f9faf8;
+    align-self: center;
+    flex: 0 0 auto ;
 }
 
-.section.three .title{
-   font-weight: bolder;
-}
+
 
 .section.three .subtext,
 .section.three .title,
 .footer{
     color: #f9faf8;
     font-size: 18px; 
+    margin: 0;
 }
 
+.section.three .title{
+   font-weight: bolder;
+   font-size: 24px;
+}
+
+.section.three .container .left-side{
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+}

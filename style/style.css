@@ -20,11 +20,7 @@
 
 /*----- HEADER -----*/
 
-.navbar
-{
-    display: flex;
-}
-
+.navbar,
 .nav-links{
     display: flex;
     list-style-type: none;
@@ -54,8 +50,7 @@
     color: #e5e7eb;
 }
 
-.header button,
-.section.three button{
+ button{
     border: 0px;
     border-radius: 5px;
     color: #f9faf8;
@@ -135,14 +130,14 @@ img{
     background-color: #e5e7eb;
     padding:100px 100px 82px 100px; 
 }
-.section.two .content{
+.two .content{
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: flex-end;
     max-width: 900px;
 }
 
-.section.two .quote{
+.two .quote{
     align-self: center;
     font-size: 36px;
     font-style: italic;
@@ -150,7 +145,7 @@ img{
     color:#1f2937;
 }
 
-.section.two .author{
+.two .author{
     align-self: flex-end;
     font-weight: bold;
     color:#1f2937;
@@ -158,12 +153,12 @@ img{
 
 /*----- MAIN CONTENT SECTION THREE -----*/
 
-.section.three{
+.three{
     display: flex;
     justify-content: center;
 }
 
-.section.three .container{
+.three .container{
     display: flex;
     background-color: #3882f6;
     border-radius: 8px ;
@@ -172,26 +167,26 @@ img{
     width: 900px;
 }
 
-.section.three button{
+.three button{
     align-self: center;
     border: 2px solid #f9faf8;
     flex: 0 0 auto ;
 }
 
-.section.three .subtext,
-.section.three .title,
+.three .subtext,
+.three .title,
 .footer{
     color: #f9faf8;
     font-size: 18px; 
     margin: 0;
 }
 
-.section.three .title{
+.three .title{
    font-weight: bolder;
    font-size: 24px;
 }
 
-.section.three .container .left-side{
+.three .left-side{
     display: flex;
     flex-direction: column;
     margin-right: auto;

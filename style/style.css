@@ -10,7 +10,9 @@ body{
 }
 
 .header,
-.content,
+.section.two,
+.section.one,
+.section.three,
 .footer{
     padding: 0 150px;
 }

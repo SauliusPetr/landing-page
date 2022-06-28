@@ -204,3 +204,11 @@ body{
     flex-direction: column;
     margin-right: auto;
 }
+
+
+/*-----------*/
+
+.footer{
+    text-align: center;
+    padding: 28px;
+}

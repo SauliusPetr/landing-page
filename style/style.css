@@ -1,12 +1,16 @@
-img{
-    max-width: 500px;
-    height: 250px;
-    flex: 1 1 auto;
-    margin-left: 20px;
+*{
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
     margin: 0;
+}
+
+img{
+    max-width: 450px;
+    height: 250px;
+    flex: 2;
+    margin-left: 20px;
 }
 
 .header,
@@ -22,16 +26,19 @@ body{
     background-color: #1f2937;
 }
 
+/*----- HEADER -----*/
+
 .navbar{
     display: flex;
     padding-top:20px;
+ 
 }
 
 .nav-links{
+    display: flex;
     list-style-type: none;
     margin: 0;
     margin-left: auto;
-    display: flex;
     gap:18px;
 }
 
@@ -83,18 +90,21 @@ body{
     flex-direction: column;
     align-items: flex-start;
     margin-right: auto;
-    max-width:550px;
-    flex: 0 1 auto;
+    max-width:450px;
+    flex: 1;
+}
+.header{
+    display: flex;
+    flex-direction: column;
 }
 
-/*----------------*/
+/*----- MAIN CONTENT SECTION ONE -----*/
 
 .section.one .title{
     font-size: 36px;
     font-weight:bolder;
     color: #1f2937;
     text-align: center;
-    
     margin: 30px;
     height: 36px;
 } 
@@ -132,7 +142,7 @@ body{
 }
 
 
-/* ------------- */
+/*----- MAIN CONTENT SECTION TWO -----*/
 
 .section.two{
     background-color: #e5e7eb;
@@ -161,7 +171,7 @@ body{
     align-self: flex-end;
 }
 
-/* ------------- */
+/*----- MAIN CONTENT SECTION THREE -----*/
 
 .section.three{
     display: flex;
@@ -184,8 +194,6 @@ body{
     flex: 0 0 auto ;
 }
 
-
-
 .section.three .subtext,
 .section.three .title,
 .footer{
@@ -205,8 +213,7 @@ body{
     margin-right: auto;
 }
 
-
-/*-----------*/
+/*----- FOOTER -----*/
 
 .footer{
     text-align: center;

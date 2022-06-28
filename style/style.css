@@ -91,6 +91,9 @@ body{
     font-weight:bolder;
     color: #1f2937;
     text-align: center;
+    
+    margin: 30px;
+    height: 36px;
 } 
 
 .section.one .subtext{
@@ -108,12 +111,12 @@ body{
 
 .section.one .card-container{
     display: flex;
-    margin:48px;
+    margin-bottom:48px;
     justify-content: center;
 }
 
 .section.one{
-    padding: 48px;
+    padding-bottom: 48px;
 }
 
 .section.one .card{
@@ -121,7 +124,8 @@ body{
     flex-direction: column;
     align-items:center;
     text-align: center;
-    margin: 8px;
+    margin: 16px;
+    max-width: 150px;
 }
 
 

@@ -1,16 +1,7 @@
 *{
     font-family: 'Roboto', sans-serif;
-}
-
-body{
     margin: 0;
-}
-
-img{
-    max-width: 500px;
-    height: 250px;
-    flex: 1;
-    margin-left: 20px;
+    padding: 0;
 }
 
 .header,
@@ -29,34 +20,34 @@ img{
 
 /*----- HEADER -----*/
 
-
-.navbar{
+.navbar,
+.nav-links,
+.header-content,
+.left-side
+{
     display: flex;
 }
 
 .nav-links{
-    display: flex;
     list-style-type: none;
-    margin: 0;
-    margin-left: auto;
-    gap:18px;
 }
 
 .logo-text{
     font-size: 24px;
-    color: #f9faf8;
     font-weight: bold;
+    color: #f9faf8;
+    margin-right: auto;
 }
 
 .nav-links a{
     text-decoration: none;
+    margin: 0 18px; 
 }
 
 .slogan{
     font-size: 48px;
     font-weight:bolder;
     color: #f9faf8;
-    margin:0;
 }
 
 .header .subtext,
@@ -67,30 +58,33 @@ img{
 
 .header button,
 .section.three button{
-    background-color: #3882f6;
-    border: 0;
+    border: 0px;
     border-radius: 5px;
-    padding: 5px 18px;
     color: #f9faf8;
+    background-color: #3882f6;
     font-weight: bold;
-    margin:0;
-    font-size: 18px;
+    padding: 5px 18px;
 }
 
 .header-content{
-    display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     padding: 100px 0;
+    gap: 20px;
+    justify-content: center;
 }
 .header .subtext{
     margin:18px 0;
 }
 .left-side{
-    display:flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-right: auto;
     max-width:500px;
+}
+
+img{
+    max-width: 500px;
+    height: 250px;
+    flex: 1;
 }
 /*----- MAIN CONTENT SECTION ONE -----*/
 
@@ -100,7 +94,6 @@ img{
     color: #1f2937;
     text-align: center;
     margin: 30px;
-    height: 36px;
 } 
 
 .section.one .subtext{
@@ -120,6 +113,8 @@ img{
     display: flex;
     margin-bottom:48px;
     justify-content: center;
+    flex-wrap: wrap;
+    gap:18px;
 }
 
 .section.one{
@@ -128,10 +123,9 @@ img{
 
 .section.one .card{
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
     align-items:center;
     text-align: center;
-    margin: 16px;
     max-width: 150px;
 }
 
@@ -170,7 +164,6 @@ img{
 .section.three{
     display: flex;
     justify-content: center;
-
 }
 
 .section.three .container{

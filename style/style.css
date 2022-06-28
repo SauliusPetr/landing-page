@@ -7,9 +7,9 @@ body{
 }
 
 img{
-    max-width: 450px;
+    max-width: 500px;
     height: 250px;
-    flex: 2;
+    flex: 1;
     margin-left: 20px;
 }
 
@@ -24,14 +24,14 @@ img{
 .header,
 .footer{
     background-color: #1f2937;
+    padding-top:28px;
 }
 
 /*----- HEADER -----*/
 
+
 .navbar{
     display: flex;
-    padding-top:20px;
- 
 }
 
 .nav-links{
@@ -90,14 +90,8 @@ img{
     flex-direction: column;
     align-items: flex-start;
     margin-right: auto;
-    max-width:450px;
-    flex: 1;
+    max-width:500px;
 }
-.header{
-    display: flex;
-    flex-direction: column;
-}
-
 /*----- MAIN CONTENT SECTION ONE -----*/
 
 .section.one .title{
@@ -217,5 +211,5 @@ img{
 
 .footer{
     text-align: center;
-    padding: 28px;
+    padding-bottom:28px;
 }
